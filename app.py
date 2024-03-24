@@ -1,8 +1,6 @@
-import json
 import pickle
-from flask import Flask, request, app, jsonify, url_for, render_template
+from flask import Flask, request, app, jsonify, render_template
 import numpy as np
-import pandas as pd
 
 app=Flask(__name__)
 
@@ -30,7 +28,7 @@ def predict():
     final_input = scaler_model.transform(np.array(data).reshape(1, -1))
     print(final_input)
     output = predict_model.predict(final_input)[0]
-    return render_template("home.html", text="The Predicted House Price is {}".format(output))
+    return render_template("home.html", text="The Predicted House Price is {} Lakhs".format(output))
 
 if __name__ == "__main__":
     app.run(debug=True)

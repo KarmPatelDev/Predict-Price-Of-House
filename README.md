@@ -11,5 +11,5 @@
 
 ```
 conda create -p env_name python==python_version -y
-ex. conda create -p venv python==3.7 -y
+ex. conda create -p venv python==3.7.16 -y
 ```
