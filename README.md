@@ -2,10 +2,10 @@
 
 ## Software and Tools Required
 
-1. [GitHub]()
-2. [VsCode]()
-2. [Heroku]()
-4. [GitCLI]()
+1. [GitHub](https://github.com/)
+2. [VsCode](https://code.visualstudio.com/)
+2. [Heroku](https://www.heroku.com/)
+4. [GitCLI](https://git-scm.com/downloads)
 
 ### Create a New Environment
 
